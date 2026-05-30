@@ -19,8 +19,9 @@ Works perfectly on:
 #How to use  
 step 1: Download the bash script  
 step 2: open terminal  
-step 3: type " sudo mv ~/Download  /usr/local/bin/update "  
-step 4: to run the script type " bash update " may ask for usr pass  
+step 3: type " sudo mv ~/Download  /usr/local/bin/update " then type: 
+" sudo chmod +x /usr/local/bin/update "
+step 4: to run the script type " sudo update " may ask for usr pass  
 
 #warning.  
 this not for full upgrade/update. 
