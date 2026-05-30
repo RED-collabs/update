@@ -9,6 +9,9 @@ NC='\033[0m'
 sudo apt update  && sudo apt upgrade -y
 stat=$?
 
+#full upgrade: apt-get full-upgrade -y
+
+
 #update sucess or not
 
 if [ $stat -eq 2 ];then
@@ -19,5 +22,6 @@ echo -e"\n\n ${GREEN }Updated Sucessfully${NC}"
 fi
 
 #removing  temp
-sudo apt autoremove
+sudo apt autoremove -y
+sudo apt-get autoclean -y
 
