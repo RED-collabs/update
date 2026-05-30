@@ -1,6 +1,8 @@
 # update
 an update script for desbian-based system
-✅ Compatible Systems
+\n
+\n✅ Compatible Systems
+\n
 Debian (Stable, Testing, Unstable)
 Ubuntu (and all official flavors: Kubuntu, Xubuntu, Lubuntu, etc.)
 Linux Mint (including LMDE)
