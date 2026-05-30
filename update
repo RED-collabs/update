@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#color are mentioned
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+#this is update code
+sudo apt update  && sudo apt upgrade -y
+stat=$?
+
+#update sucess or not
+
+if [ $stat -eq 2 ];then
+echo -e "\n\n ${RED} error on execution ${NC}"
+
+elif [ $stat -eq 0 ];then
+echo -e"\n\n ${GREEN }Updated Sucessfully${NC}"
+fi
+
+#removing  temp
+sudo apt autoremove
+
