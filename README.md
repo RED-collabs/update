@@ -22,6 +22,12 @@ step 2: open terminal
 step 3: type " sudo mv ~/Download  /usr/local/bin/update "  
 step 4: to run the script type " bash update " may ask for usr pass  
 
+#warning.  
+this not for full upgrade/update. 
+if you need it for full update
+
+use apt-get full-upgrade -y
+
 
 # 🔄 Smart System Updater | Automated Bash Script for Debian & Ubuntu  
 
