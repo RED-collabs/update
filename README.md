@@ -18,11 +18,12 @@ Works perfectly on:
 
 #How to use  
 step 0: cd ~/Download
-step 1: Download the bash script ' git clone https://github.com/RED-collabs/update '
-step 2: cd update  
-step 3: type " sudo mv update  /usr/local/bin/update " then type: 
-" sudo chmod +x /usr/local/bin/update "
-step 4: to run the script type " sudo update " may ask for usr pass  
+step 1: Download the bash script ' git clone https://github.com/RED-collabs/update '  
+step 2: cd update    
+step 3: type " sudo mv update  /usr/local/bin/update " then type:     
+step 4: sudo chmod +x /usr/local/bin/update "   
+if u skip step 4: type " sudo bash update " to run  
+step 5: to run the script type " sudo update " may ask for usr pass   
 
 #warning.  
 this not for full upgrade/update. 
