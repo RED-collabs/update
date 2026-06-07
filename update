@@ -25,6 +25,6 @@ echo -e"\n\n ${GREEN} Updated Sucessfully ${NC}"
 fi
 
 #removing  temp
-apt autoremove -y
-apt-get autoclean -y
+apt autoremove -y 2>/dev/null
+apt-get autoclean -y 2>/dev/null
 
