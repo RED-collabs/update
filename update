@@ -10,9 +10,6 @@ apt update  && apt upgrade -y
 
 stat=$?
 
-
-
-
 #update sucess or not
 
 if [ $stat -eq 2 ];then
