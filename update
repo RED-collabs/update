@@ -19,12 +19,13 @@ stat=$?
 
 if [ $stat -eq 2 ];then
 echo -e "\n\n ${RED} error on execution ${NC}"
+exit
 
 elif [ $stat -eq 0 ];then
-echo -e"\n\n ${GREEN} Updated Sucessfully ${NC}"
+echo -e "\n\n ${GREEN} Updated Sucessfully ${NC}"
 fi
 
 #removing  temp
-apt autoremove -y 2>/dev/null
-apt-get autoclean -y 2>/dev/null
+apt autoremove -y >/dev/null 
+apt-get autoclean -y >/dev/null 
 
