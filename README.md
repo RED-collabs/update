@@ -17,9 +17,10 @@ Works perfectly on:
 - PureOS   
 
 #How to use  
-step 1: Download the bash script  
-step 2: open terminal  
-step 3: type " sudo mv ~/Download  /usr/local/bin/update " then type: 
+step 0: cd ~/Download
+step 1: Download the bash script ' git clone https://github.com/RED-collabs/update '
+step 2: cd update  
+step 3: type " sudo mv update  /usr/local/bin/update " then type: 
 " sudo chmod +x /usr/local/bin/update "
 step 4: to run the script type " sudo update " may ask for usr pass  
 
