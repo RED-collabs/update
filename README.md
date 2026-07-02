@@ -33,6 +33,7 @@ use apt-get full-upgrade -y
 
 
 # 🔄 Smart System Updater | Automated Bash Script for Debian & Ubuntu  
+# u may need to update securepath in visudo  
 
 > **One-command automated system updater for Debian-based Linux.** Keeps your system fresh, secure, and lean with **colored visual feedback**, **smart error handling**, and **automatic cleanup**.  
 
